@@ -48,8 +48,9 @@ def compute_similarity(resume_texts, job_description):
 # ------------------- Streamlit UI ------------------- #
 
 st.set_page_config(page_title="AI Resume Screener", layout="wide")
-st.title("📄 AI-Powered Resume Screening Tool")
-st.write("Automatically score resumes based on a job description using TF-IDF and cosine similarity.")
+st.title("📄 AI-Powered Resume Screening Software")
+st.write("This ATS enabled model intelligently score resumes to get the best recruits and exceptional talents.")
+st.write("It automatically score resumes based on a job description using TF-IDF and cosine similarity.")
 
 # Upload Job Description
 st.sidebar.header("Upload Job Description")
@@ -64,7 +65,7 @@ if st.sidebar.button("⚙️ Run Screening"):
     if not jd_file or not resume_files:
         st.warning("Please provide both a job description and at least one resume.")
     else:
-        st.info("🔍 Screening resumes... Please wait.")
+        st.info("🔍 Intelligently screening resumes... Please wait.")
         resume_texts = []
         candidate_names = []
 
@@ -91,4 +92,20 @@ if st.sidebar.button("⚙️ Run Screening"):
 
 # Footer
 st.markdown("---")
-st.markdown("Made by Kajola Gbenga, a certified Data Scientist, and an AI/ML Engineer")
+st.markdown("# 👨‍💻 About the Developer")
+st.markdown("## **Kajola Gbenga**")
+
+st.markdown(
+    """
+📇 Certified Data Analyst | Certified Data Scientist | Certified SQL Programmer | Mobile App Developer | AI/ML Engineer
+
+🔗 [LinkedIn](https://www.linkedin.com/in/kajolagbenga)  
+📜 [View My Certifications & Licences](https://www.datacamp.com/portfolio/kgbenga234)  
+💻 [GitHub](https://github.com/prodigy234)  
+🌐 [Portfolio](https://kajolagbenga.netlify.app/)  
+📧 k.gbenga234@gmail.com
+"""
+)
+
+
+st.markdown("✅ Created using Python and Streamlit")

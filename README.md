@@ -5,6 +5,22 @@ This is an intelligent resume screening tool that uses **TF-IDF (Term Frequency-
 
 ---
 
+
+## 📬 Author
+
+**Gbenga Kajola**
+
+[LinkedIn](https://www.linkedin.com/in/kajolagbenga)
+
+[Certified_Data_Scientist](https://www.datacamp.com/certificate/DSA0012312825030)
+
+[Certified_Data_Analyst](https://www.datacamp.com/certificate/DAA0018583322187)
+
+[Certified_SQL_Database_Programmer](https://www.datacamp.com/certificate/SQA0019722049554)
+
+
+---
+
 ## 🚀 Features
 
 - ✅ Upload resumes in **PDF** or **DOCX** format
@@ -51,10 +67,11 @@ streamlit run app.py
 ## 📁 Folder Structure
 
 ```
-.
-├── app.py                 # Main application script (the code above)
-├── README.md              # This file
+📦 Resume Screening AI/
+├── app.py                 # Main application script
+├── README.md              # The thought process and set up
 ├── requirements.txt       # Dependencies
+
 ```
 
 ---
@@ -75,13 +92,8 @@ Imagine you're hiring a **Data Analyst**. You paste the job description, upload 
 
 ---
 
-## 📜 Acknowledgements
+## 🏁 License
 
-Developed by **Kajola Gbenga**, a Certified Data Scientist and AI/ML Engineer.
+MIT License – feel free to use and customize this for your business or learning projects.
 
 ---
-
-## 📬 Contact
-
-For collaborations or inquiries, connect on [LinkedIn](https://www.linkedin.com/in/kajolagbenga/) or via k.gbenga234@gmail.com.
-
