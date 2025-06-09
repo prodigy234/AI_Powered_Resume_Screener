@@ -1,10 +1,13 @@
 
 # 🧠 AI-Powered Resume Screener
 
-This is an intelligent resume screening tool that uses **TF-IDF (Term Frequency-Inverse Document Frequency)** and **Cosine Similarity** to automatically match and rank candidate resumes against a given job description. The solution includes a user-friendly **Streamlit web interface**, making it easy for recruiters and HR professionals to assess resume-job fit without manual scanning.
+This is a highly intelligent resume screening tool that uses **TF-IDF (Term Frequency-Inverse Document Frequency)** and **Cosine Similarity** to automatically match and rank candidate resumes against a given job description. The solution includes a user-friendly **Streamlit web interface**, making it easy for recruiters and HR professionals to assess resume-job fit without manual scanning.
 
 ---
 
+This intelligently developed AI-powered resume screening model which I built for seamless recruitment of talents and exceptionally seasoned individuals can be accessed live on streamlit [Here](https://intelligent-ai-resume-screener.streamlit.app/)
+
+---
 
 ## 📬 Author
 
@@ -52,15 +55,18 @@ Candidates are ranked by score and displayed in descending order. Scores are dow
 
 ---
 
+## 📌 Example Use Case
+
+Imagine you're hiring a **Data Analyst**. You paste the job description, upload 10 resumes, and instantly see which candidates best match your job post — saving hours of manual review.
+
+---
+
+
 ## 🖥️ Web UI (Streamlit)
 
 - The app is designed using [Streamlit](https://streamlit.io/).
 - To run the app locally:
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
 
 ---
 
@@ -76,19 +82,33 @@ streamlit run app.py
 
 ---
 
-## 📦 Dependencies
+## 🧪 How to Run the App
 
-Install dependencies with:
+### 1. Clone or download the repository
+
+```bash
+
+git clone https://github.com/prodigy234/AI_Powered_Resume_Screener.git
+
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Or manually install:
 
 ```bash
 pip install streamlit pandas numpy scikit-learn PyPDF2 docx2txt
 ```
 
----
+### 3. Launch the app
 
-## 📌 Example Use Case
-
-Imagine you're hiring a **Data Analyst**. You paste the job description, upload 10 resumes, and instantly see which candidates best match your job post — saving hours of manual review.
+```bash
+streamlit run app.py
+```
 
 ---
 
