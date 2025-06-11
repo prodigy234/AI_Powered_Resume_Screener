@@ -75,6 +75,7 @@ Imagine you're hiring a **Data Analyst**. You paste the job description, upload 
 ```
 📦 Resume Screening AI/
 ├── app.py                 # Main application script
+├── my_image.jpg                       # My image
 ├── README.md              # The thought process and set up
 ├── requirements.txt       # Dependencies
 
