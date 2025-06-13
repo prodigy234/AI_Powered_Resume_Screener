@@ -5,7 +5,7 @@ This is a highly intelligent resume screening tool that uses **TF-IDF (Term Freq
 
 ---
 
-This intelligently developed AI-powered resume screening model which I built for seamless recruitment of talents and exceptionally seasoned individuals can be accessed live on streamlit [Here](https://intelligent-ai-resume-screener.streamlit.app/)
+This intelligently developed AI-powered resume screening model which I built for seamless recruitment of talents and exceptionally seasoned individuals can be accessed live on streamlit [Here](https://intelligentresumescreener.streamlit.app/)
 
 ---
 
