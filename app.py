@@ -47,10 +47,15 @@ def compute_similarity(resume_texts, job_description):
 
 # ------------------- Streamlit UI ------------------- #
 
-st.set_page_config(page_title="AI Resume Screener", layout="wide")
-st.title("📄 AI-Powered Resume Screening Software")
+st.set_page_config(page_title="👁️ Vibriss", layout="wide")
+st.title("👁️ Vibriss - AI-Powered Resume Screener")
 st.write("This ATS enabled model intelligently score resumes to get the best recruits and exceptional talents.")
 st.write("It automatically score resumes based on a job description using TF-IDF and cosine similarity.")
+
+# --- Sidebar Branding ---
+st.sidebar.image("my_image.jpg", width=120)   
+st.sidebar.markdown("### 👁️ Vibriss AI")    
+
 
 # Upload Job Description
 st.sidebar.header("Upload Job Description")
