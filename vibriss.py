@@ -134,11 +134,8 @@ st.info(
 st.success("✅ Ready to revolutionize your hiring? **Start screening smarter today.**")
 
 
-# --- Sidebar Branding ---
-st.sidebar.image("my_image.jpg", width=120)   
+# --- Sidebar Branding ---   
 st.sidebar.markdown("### 👁️ Vibriss AI")    
-
-
 # Upload Job Description
 st.sidebar.header("Upload Job Description")
 jd_file = st.sidebar.text_area("Paste Job Description Here")
@@ -237,9 +234,9 @@ st.markdown("---")
 st.markdown('<div id="about-section"></div>', unsafe_allow_html=True)
 st.markdown(
     """
-    ## ℹ️ About Vibriss AI
+    ## About Vibriss AI
 
-    **Vibriss AI** – AI-Powered Resume Screener  
+    **Vibriss AI,** AI-Powered Resume Screener  
 
     Developed by **Kajola Gbenga**  
     *AI/ML Engineer*  
